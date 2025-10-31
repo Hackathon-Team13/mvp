@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components Library - Copy & Paste Examples</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .code-block {
+            background: #1f2937;
+            color: #f3f4f6;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.875rem;
+        }
+        .halloween-gradient {
+            background: linear-gradient(135deg, #7c2d12 0%, #9333ea 50%, #ea580c 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto px-4 py-12">
+
+        <h1 class="text-4xl font-bold text-center mb-4 text-gray-900">🎨 Component Library</h1>
+        <p class="text-center text-gray-600 mb-12">Copy any of these components and paste them into your pages!</p>
+
+        <!-- =============================================== -->
+        <!-- BUTTONS -->
+        <!-- =============================================== -->
+        <section class="bg-white rounded-lg shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold mb-6 text-gray-900">Buttons</h2>
+
+            <div class="grid gap-6">
+                <!-- Primary Button -->
+                <div>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Primary Button (Orange)</strong></p>
+                    <button class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-6 rounded-lg transition">
+                        Click Me
+                    </button>
+                    <pre class="code-block mt-4">&lt;button class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-6 rounded-lg transition"&gt;
+    Click Me
+&lt;/button&gt;</pre>
+                </div>
+
+                <!-- Secondary Button -->
+                <div>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Secondary Button (Purple)</strong></p>
+                    <button class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg transition">
+                        Secondary Action
+                    </button>
+                    <pre class="code-block mt-4">&lt;button class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg transition"&gt;
+    Secondary Action
+&lt;/button&gt;</pre>
+                </div>
+
+                <!-- Outline Button -->
+                <div>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Outline Button</strong></p>
+                    <button class="border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white font-bold py-3 px-6 rounded-lg transition">
+                        Outline Style
+                    </button>
+                    <pre class="code-block mt-4">&lt;button class="border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white font-bold py-3 px-6 rounded-lg transition"&gt;
+    Outline Style
+&lt;/button&gt;</pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- =============================================== -->
+        <!-- CARDS -->
+        <!-- =============================================== -->
+        <section class="bg-white rounded-lg shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold mb-6 text-gray-900">Cards</h2>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Simple Card -->
+                <div>
+                    <p class="text-sm text-gray-600 mb-4"><strong>Simple Card</strong></p>
+                    <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-bold mb-2">Card Title</h3>
+                        <p class="text-gray-600">This is a simple card with a border and shadow.</p>
+                    </div>
+                    <pre class="code-block mt-4">&lt;div class="bg-white border border-gray-200 rounded-lg shadow-md p-6"&gt;
+    &lt;h3 class="text-xl font-bold mb-2"&gt;Card Title&lt;/h3&gt;
+    &lt;p class="text-gray-600"&gt;Card description.&lt;/p&gt;
+&lt;/div&gt;</pre>
+                </div>
+
+                <!-- Card with Icon -->
+                <div>
+                    <p class="text-sm text-gray-600 mb-4"><strong>Card with Icon</strong></p>
+                    <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg shadow-md p-6 hover:shadow-xl transition">
+                        <div class="text-5xl mb-4 text-center">🎃</div>
+                        <h3 class="text-xl font-bold mb-2 text-center">Featured Card</h3>
+                        <p class="text-gray-700 text-center">Card with emoji and gradient background.</p>
+                    </div>
+                    <pre class="code-block mt-4">&lt;div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg shadow-md p-6 hover:shadow-xl transition"&gt;
+    &lt;div class="text-5xl mb-4 text-center"&gt;🎃&lt;/div&gt;
+    &lt;h3 class="text-xl font-bold mb-2 text-center"&gt;Featured Card&lt;/h3&gt;
+    &lt;p class="text-gray-700 text-center"&gt;Card description.&lt;/p&gt;
+&lt;/div&gt;</pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- =============================================== -->
+        <!-- ALERTS & NOTICES -->
+        <!-- =============================================== -->
+        <section class="bg-white rounded-lg shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold mb-6 text-gray-900">Alerts & Notices</h2>
+
+            <div class="grid gap-6">
+                <!-- Success Alert -->
+                <div>
+                    <div class="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
+                        <div class="flex items-center gap-3">
+                            <span class="text-3xl">✓</span>
+                            <div>
+                                <p class="text-green-900 font-semibold">Success!</p>
+                                <p class="text-green-700 text-sm">Your action was successful.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <pre class="code-block mt-4">&lt;div class="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg"&gt;
+    &lt;div class="flex items-center gap-3"&gt;
+        &lt;span class="text-3xl"&gt;✓&lt;/span&gt;
+        &lt;div&gt;
+            &lt;p class="text-green-900 font-semibold"&gt;Success!&lt;/p&gt;
+            &lt;p class="text-green-700 text-sm"&gt;Your action was successful.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                </div>
+
+                <!-- Warning Alert -->
+                <div>
+                    <div class="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-r-lg">
+                        <div class="flex items-center gap-3">
+                            <span class="text-3xl">⚠️</span>
+                            <div>
+                                <p class="text-orange-900 font-semibold">Warning!</p>
+                                <p class="text-orange-700 text-sm">Please pay attention to this message.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <pre class="code-block mt-4">&lt;div class="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-r-lg"&gt;
+    &lt;div class="flex items-center gap-3"&gt;
+        &lt;span class="text-3xl"&gt;⚠️&lt;/span&gt;
+        &lt;div&gt;
+            &lt;p class="text-orange-900 font-semibold"&gt;Warning!&lt;/p&gt;
+            &lt;p class="text-orange-700 text-sm"&gt;Message here.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                </div>
+
+                <!-- Info Alert -->
+                <div>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
+                        <div class="flex items-center gap-3">
+                            <span class="text-3xl">ℹ️</span>
+                            <div>
+                                <p class="text-blue-900 font-semibold">Information</p>
+                                <p class="text-blue-700 text-sm">Here's something you should know.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =============================================== -->
+        <!-- HERO SECTIONS -->
+        <!-- =============================================== -->
+        <section class="bg-white rounded-lg shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold mb-6 text-gray-900">Hero Sections</h2>
+
+            <div>
+                <p class="text-sm text-gray-600 mb-4"><strong>Halloween Gradient Hero</strong></p>
+                <div class="halloween-gradient py-16 rounded-lg">
+                    <div class="text-center px-4">
+                        <h1 class="text-5xl font-bold text-white mb-4">
+                            🎃 Big Hero Title 🎃
+                        </h1>
+                        <p class="text-xl text-orange-200 mb-6">
+                            Your compelling subtitle goes here
+                        </p>
+                        <button class="bg-white text-purple-800 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition">
+                            Call to Action
+                        </button>
+                    </div>
+                </div>
+                <pre class="code-block mt-4">&lt;div class="halloween-gradient py-16 rounded-lg"&gt;
+    &lt;div class="text-center px-4"&gt;
+        &lt;h1 class="text-5xl font-bold text-white mb-4"&gt;
+            🎃 Big Hero Title 🎃
+        &lt;/h1&gt;
+        &lt;p class="text-xl text-orange-200 mb-6"&gt;
+            Your subtitle here
+        &lt;/p&gt;
+        &lt;button class="bg-white text-purple-800 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition"&gt;
+            Call to Action
+        &lt;/button&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            </div>
+        </section>
+
+        <!-- =============================================== -->
+        <!-- GRID LAYOUTS -->
+        <!-- =============================================== -->
+        <section class="bg-white rounded-lg shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold mb-6 text-gray-900">Grid Layouts</h2>
+
+            <div>
+                <p class="text-sm text-gray-600 mb-4"><strong>3-Column Grid</strong></p>
+                <div class="grid md:grid-cols-3 gap-6 mb-6">
+                    <div class="bg-orange-100 p-6 rounded-lg text-center">Column 1</div>
+                    <div class="bg-purple-100 p-6 rounded-lg text-center">Column 2</div>
+                    <div class="bg-orange-100 p-6 rounded-lg text-center">Column 3</div>
+                </div>
+                <pre class="code-block">&lt;div class="grid md:grid-cols-3 gap-6"&gt;
+    &lt;div&gt;Column 1&lt;/div&gt;
+    &lt;div&gt;Column 2&lt;/div&gt;
+    &lt;div&gt;Column 3&lt;/div&gt;
+&lt;/div&gt;</pre>
+
+                <p class="text-sm text-gray-600 mb-4 mt-6"><strong>2-Column Grid</strong></p>
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-orange-100 p-6 rounded-lg text-center">Column 1</div>
+                    <div class="bg-purple-100 p-6 rounded-lg text-center">Column 2</div>
+                </div>
+                <pre class="code-block">&lt;div class="grid md:grid-cols-2 gap-6"&gt;
+    &lt;div&gt;Column 1&lt;/div&gt;
+    &lt;div&gt;Column 2&lt;/div&gt;
+&lt;/div&gt;</pre>
+            </div>
+        </section>
+
+        <!-- =============================================== -->
+        <!-- FORMS -->
+        <!-- =============================================== -->
+        <section class="bg-white rounded-lg shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold mb-6 text-gray-900">Form Elements</h2>
+
+            <div class="grid gap-6">
+                <!-- Text Input -->
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-2">Text Input</label>
+                    <input type="text" placeholder="Enter text..." class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                    <pre class="code-block mt-4">&lt;input type="text" placeholder="Enter text..." class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"&gt;</pre>
+                </div>
+
+                <!-- Select Dropdown -->
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-2">Dropdown</label>
+                    <select class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                    <pre class="code-block mt-4">&lt;select class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"&gt;
+    &lt;option&gt;Option 1&lt;/option&gt;
+    &lt;option&gt;Option 2&lt;/option&gt;
+&lt;/select&gt;</pre>
+                </div>
+
+                <!-- Textarea -->
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-2">Text Area</label>
+                    <textarea placeholder="Enter your message..." rows="4" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"></textarea>
+                    <pre class="code-block mt-4">&lt;textarea placeholder="Enter your message..." rows="4" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"&gt;&lt;/textarea&gt;</pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- =============================================== -->
+        <!-- HOW TO USE -->
+        <!-- =============================================== -->
+        <section class="bg-gradient-to-r from-purple-500 to-orange-500 rounded-lg shadow-lg p-8 text-white">
+            <h2 class="text-2xl font-bold mb-4">How to Use These Components</h2>
+            <ol class="space-y-2 text-lg">
+                <li>1️⃣ Find a component you like above</li>
+                <li>2️⃣ Copy the code from the gray box</li>
+                <li>3️⃣ Paste it into your HTML file</li>
+                <li>4️⃣ Customize the text and colors</li>
+                <li>5️⃣ Save and refresh your browser!</li>
+            </ol>
+        </section>
+
+    </div>
+
+</body>
+</html>

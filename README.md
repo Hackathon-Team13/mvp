@@ -1,5 +1,7 @@
 # ShriekedIn MVP - Simple HTML Version
 
+**🌐 Live Site:** https://hackathon-team13.github.io/mvp/
+
 This is a **beginner-friendly** version of the ShriekedIn website. No complex setup required!
 
 ## 📁 What's This?

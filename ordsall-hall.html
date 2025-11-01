@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>haunted places- ShriekedIn</title>
+
+    <!-- Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+    <style>
+        .halloween-gradient {
+            background: linear-gradient(135deg, #7c2d12 0%, #9333ea 50%, #ea580c 100%);
+        }
+
+        .btn-primary {
+            background-color: #f97316;
+            color: white;
+            font-weight: bold;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #ea580c;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(249, 115, 22, 0.3);
+        }
+        .haunted-intro, .places {
+  background: radial-gradient(circle at top left, #f9f3e7, #d6cbb3 80%);
+  border: 1px solid #b9a075;
+  padding: 3rem;
+  color: #2c1a09;
+  font-family: 'IM Fell English', serif;
+  box-shadow: 0 0 40px rgba(0,0,0,0.5) inset, 0 0 20px rgba(0,0,0,0.6);
+  border-radius: 6px;
+  font-weight: 600;
+}
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    
+    <nav class="halloween-gradient text-white shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <span class="text-3xl">🎃</span>
+                    <a href="index.html" class="text-2xl font-bold hover:text-orange-300 transition duration-300">
+                        ShriekedIn
+                    </a>
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="index.html" class="hover:text-orange-300 transition duration-300">Home</a>
+                    <a href="events.html" class="hover:text-orange-300 transition duration-300">Events</a>
+                    <a href="haunted-places.html" class="hover:text-orange-300 transition duration-300">Haunted Places</a>
+                    <a href="businesses.html" class="hover:text-orange-300 transition duration-300">Businesses</a>
+                    <a href="login.html" class="btn-primary">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+<div class="grid md:grid-cols-3 gap-8 ms-5">
+            <!-- Main Content -->
+            <div class="md:col-span-2 parchment-container mt-6">
+                <!-- Story Content -->
+                <div class="parchment-card mb-6 relative places">
+                    <h2 class="text-2xl font-bold mb-4 parchment-heading">The Story</h2>
+                    <div class="prose max-w-none whitespace-pre-line parchment-text">A Ordsall Hall is a historic house and a former stately home in Ordsall, Greater Manchester. The building dates back more than 750 years, although the oldest surviving parts of the present hall were built in the 15th century. Ordsall Hall has stories of hauntings such as the White Lady who is said to appear in the Great Hall or Star Chamber.</div>
+
+                 
+                </div>
+
+                <!-- Historical Context -->
+                
+                    <div class="parchment-card mb-6 relative places">
+                        <h2 class="text-2xl font-bold mb-4 parchment-heading">📜 Historical Context</h2>
+                        <div class="prose max-w-none whitespace-pre-line parchment-text"></div>Constructed in the 15th century, Ordsall Hall has served various roles—from a family residence to a working men’s club, and even a church hall. Its rich tapestry of history is evident in its preserved features, such as the Great Hall, the Star Chamber, and the meticulously maintained gardens. </div>
+                
+
+                <!-- Reported Phenomena -->
+                
+                    <div class="parchment-card mb-6 relative places">
+                        <h2 class="text-2xl font-bold mb-4 parchment-heading">👁️ Reported Phenomena</h2>
+                        <div class="prose max-w-none whitespace-pre-line parchment-text">
+                            <p>the white lady — believed to be margaret radclyffe, heartbroken after losing her twin brother in 1599.</p>
+                            
+                            <h4>people have seen:</h4>
+
+                            <p>figure of a woman gliding across the star chamber</p>
+
+                            <p>cold patches that move around the room</p>
+</p>
+                            <p>footsteps when no one is there</p>
+                        </div>
+                    </div>
+                
+
+                <!-- Famous For -->
+                
+                    <div class="parchment-card parchment-highlight mb-6 relative places">
+                        <h3 class="text-lg font-bold mb-2 parchment-heading">🌟 Famous For</h3>
+                        <p class="parchment-text">The hall is also known for its connection to the Gunpowder Plot of 1605, as it was rumored to be the location where Guy Fawkes and Robert Catesby plotted the assassination of King James </p>
+                    </div>
+                
+            </div>
+            
+
+            <!-- Sidebar -->
+            <div class="md:col-span-1 mt-6">
+                <!-- Quick Info -->
+                <div class="bg-white rounded-lg shadow-lg p-6 mb-6 sticky top-4">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Quick Info</h3>
+
+                    <div class="space-y-4 ">
+                        <!-- Location Details -->
+                        <div>
+                            <h4 class="font-semibold text-gray-900 mb-2">📍 Location</h4>
+                            <p class="text-gray-700 text-sm">322 Ordsall Ln, Salford M5 3AN </p>
+                            <p class="text-gray-700 text-sm">
+                                Salford, Manchester
+                            </p>
+                        </div>
+
+                        <!-- Year Established -->
+                        
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">📅 Established</h4>
+                                <p class="text-gray-700">1884</p>
+                            </div>
+                        
+
+                        <!-- Scare Level -->
+                        <div>
+                            <h4 class="font-semibold text-gray-900 mb-2">😱 Scare Level</h4>
+                            <p class="text-gray-700">4 - Very Scary</p>
+                        </div>
+
+                        <!-- Stats -->
+                        <div class="border-t pt-4">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="text-gray-600 text-sm">👁️ Views</span>
+                                <span class="font-bold text-gray-900">1341</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-gray-600 text-sm">✅ Visits</span>
+                                <span class="font-bold text-gray-900">245</span>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="border-t pt-4 space-y-2">
+                            <a href="/haunted/"
+                               class="block w-full text-center bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition duration-300">
+                                ← Back to All Places
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+       
+<footer class="bg-gray-900 text-white py-8 mt-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-orange-500">🎃 ShriekedIn</h3>
+                    <p class="text-gray-400">Your professional Halloween networking platform.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-orange-500">Quick Links</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="index.html" class="hover:text-orange-300 transition">Home</a></li>
+                        <li><a href="events.html" class="hover:text-orange-300 transition">Events</a></li>
+                        <li><a href="haunted-places.html" class="hover:text-orange-300 transition">Haunted Places</a></li>
+                        <li><a href="businesses.html" class="hover:text-orange-300 transition">Businesses</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-orange-500">Legal</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="terms.html" class="hover:text-orange-300 transition">Terms & Conditions</a></li>
+                        <li><a href="privacy.html" class="hover:text-orange-300 transition">Privacy Policy</a></li>
+                        <li><a href="cookies.html" class="hover:text-orange-300 transition">Cookie Settings</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-orange-500">Built With</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>HTML5</li>
+                        <li>Tailwind CSS</li>
+                        <li>Love & Spookiness</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-6 text-center text-gray-500">
+                <p>&copy; 2025 ShriekedIn. All rights reserved. Happy Haunting! 👻</p>
+            </div>
+        </div>
+    </footer>
+    </body>
+    
+</html>
